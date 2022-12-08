@@ -2,8 +2,14 @@
 
 int main(void)
 
-{
-  puts("\"Programming is like building a multilingual puzzle\n");
+/** main entry
 
-  return (0);
+ * return always 0
+
+ */
+  
+{
+ puts("\"Programming is like building a multilingual puzzle\n");
+
+ return (0);
 }
