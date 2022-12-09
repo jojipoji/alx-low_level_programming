@@ -1,4 +1,4 @@
-#include <ctype.h>
+#include <stdio.h>
 #include <stdlib.h>
 /**
 *main - prints characters a-z in small letters
@@ -6,9 +6,11 @@
 */
 int main(void)
 {
-char letter;
-for (letter = 'a'; letter <= 'z'; letter++)
-putchar(letter);
+int x;
+for (x = 'A'; x <= 'Z'; x++)
+{
+putchar(tolower(x));
+}
 putchar('\n');
 return(0);
 }
