@@ -15,10 +15,10 @@ printf("%d and is greater than 5\n", n);
 }
 else if (n == 0)
 {
-printf("%d and is 0\n", n)
+printf("%d and is 0\n", n);
 }
-else (n < 6 AND != 0)
+else (n < 6) AND (!= 0)
 {printf("%d and is less than 6 and not 0\n", n);
 }
- return (0);
+return (0);
 }
