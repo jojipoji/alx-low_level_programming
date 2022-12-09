@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <ctype.h>
 #include <stdlib.h>
 /**
  *main - prints characters a-z in small letters
