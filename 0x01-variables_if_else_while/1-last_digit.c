@@ -7,21 +7,14 @@
  */
 int main(void)
 {int n;
-int last_num;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-last_num = n%10;
-printf("last digit of %d is %d ",n,last_num);
-if(last_num > 5)
-{
-printf("and is greater than 5\n", n);
-}
-else if(last_num == 0)
-{
-printf("and is 0\n", n);
-}
-else if(last_num < 6 && last_num != 0)
-{printf("and is less than 6 and not 0\n", n);
-}
-return (0);
+printf("last digit of %d is %d ",n, n%10); 
+if(n%10 > 5)   
+printf("and is greater than 5\n", n); 
+else if(n%10 == 0)   
+printf("and is 0\n", n); 
+else if(n%10 < 6 && n%10!= 0)   
+printf("and is less than 6 and not 0\n", n); 
+return (0); 
 }
