@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main entry point
+ *main prints all possible combinations of three digits
  *101combo digits
  *Return: Always 0
  */
@@ -8,8 +8,8 @@ int main(void)
 {
 int i, j, h;
 for (i = 0; i < 8; i++)
-for (j = i+1; j < 9; j++)
-for (h = j+1; h < 10; h++)
+for (j = i + 1; j < 9; j++)
+for (h = j + 1; h < 10; h++)
 {
 putchar((i % 10) + '0');
 putchar((j % 10) + '0');
