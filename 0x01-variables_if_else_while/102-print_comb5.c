@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 /**
- *Main - print two digit numbers
+ *Main - print two digit numbers combos.
  *Return: Always 0
  */
 int main(void)
@@ -16,7 +16,7 @@ putchar((i % 10) + '0');
 putchar(' ');
 putchar((j / 10) + '0');
 putchar((j % 10) + '0');
-if (i==98 && j==99)
+if (i == 98 && j == 99)
 continue;
 putchar(',');
 putchar(' ');
