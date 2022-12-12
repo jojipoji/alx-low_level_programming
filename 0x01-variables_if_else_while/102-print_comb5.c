@@ -3,7 +3,7 @@
  *Main - Entry
  *Return: Always 0. (successful)
  */
-int main(void)
+int main(void) - Print two digit combo.
 {
 int i, j;
 for (i = 0; i <= 98; i++)
