@@ -1,10 +1,9 @@
-
 #include <stdio.h>
-/**
- *Main - print two digit numbers combos.
- *Return: Always 0
- */
 int main(void)
+/**
+*Main - print two digit numbers combos.
+*Return: Always 0
+*/
 {
 int i, j;
 for (i = 0; i <= 98; i++)
