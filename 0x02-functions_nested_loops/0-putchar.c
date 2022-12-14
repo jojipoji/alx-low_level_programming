@@ -1,17 +1,21 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <main.h>
 /**
  *Main - a program that prints _putchar, followed by a new line
  *Return: Always 0
  */
 int main(void)
 {
-int i;
-char *s = "_putchar";
-for (i = 0; s[i] != '\0'; i++)
-{
-_putchar(s[i]);
-}
-_putchar('\n')
+_putchar('H');
+_putchar('o');
+_putchar('l');
+_putchar('b');
+_putchar('e');
+_putchar('r');
+_putchar('t');
+_putchar('o');
+_putchar('n');
+_putchar('\n');    
 return (0);
 }
