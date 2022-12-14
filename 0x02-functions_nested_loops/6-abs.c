@@ -2,13 +2,13 @@
 #include <stdio.h>
 /**
  *_abs - prints the absolute value of an integer
- *@int: integer value
+ *@n: integer value
 *Return: Always 0
  */
-int _abs(int)
+int _abs(int n)
 {
-if (int > 0)
+if (n > 0)
 return (0);
 else
-return (int * -1);
+return (n * -1);
 }
