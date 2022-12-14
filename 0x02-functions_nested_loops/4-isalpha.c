@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  *_isalpha - a function that checks for alphabetic character.
  *Return: 1 if c is a letter, lowercase or uppercase otherwise returns 0.
