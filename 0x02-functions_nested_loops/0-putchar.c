@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <_putchar.c>
-#include <main.c>
 /**
  *Main - a program that prints _putchar, followed by a new line
  *Return: Always 0
