@@ -2,7 +2,6 @@
 /**
  *main - Tests the function if the integer is positive or negative
  *Return: Always 0
- *@i: the integer being checked
  */
 int main(void)
 {
