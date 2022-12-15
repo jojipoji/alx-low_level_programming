@@ -1,0 +1,11 @@
+#include "main.h"
+/**
+ *mul - multiplies two integers
+ @a: integer to be added
+ @b: integer to be added
+ Return: result of two
+ */
+int mul(int a, int b);
+{
+return (a * b);
+}
