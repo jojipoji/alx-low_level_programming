@@ -30,4 +30,3 @@ int _putchar(char c)
   
 }
 
-Footer
