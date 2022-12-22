@@ -1,6 +1,6 @@
 #include "main.h"
  /**
- * _strncpy - a function that concainates two strings
+ * _strncpy - a function that copies two strings
  * @dest: destination to copy
  * @src: source to copy
  * @n: amount of places to copy
