@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  *_memset -  a function that fills a memory with a constant bytes
