@@ -3,7 +3,7 @@
  *_memcpy - A function that copies bytes from memory area
  *@n: bytes to be copied
  *@src: source to be copied from
- *@dest: the destination after copying 
+ *@dest: the destination after copying
  *
  *Return: a poiner to dest
  */
