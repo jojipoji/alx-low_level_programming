@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  *helper - checks for a prime number
+ *@i: integer
  *@n: the integer to be checked
  *Return: 1 if the integer is prime otherwise return 0
  */
