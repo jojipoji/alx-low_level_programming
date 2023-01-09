@@ -2,7 +2,7 @@
 #include <stdio.h>
 #define unused(x) (void)(x)
 /**
- *Main - main function
+ *main - main function
  *@argc: arguments count
  *@argv: arguments vector
  *Return: Always o
