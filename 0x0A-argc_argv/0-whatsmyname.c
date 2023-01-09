@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define unused (x) (void)(0)
 /**
  *Main - main function
  *@argc: arguments count
