@@ -1,4 +1,5 @@
 #include"main.h"
+#include<stdlib.h>
 #include<string.h>
 /**
  *str_concat - program to concatinate two strings
@@ -13,11 +14,11 @@ int len1, len2, total_len;
 if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
-s2 = ""
+s2 = "";
 len1 = strlen(s1);
 len2 = strlen(s2);
 total_len = len1 + len2 + 1;
-result = malloc(total_len *sizeof(char));
+result = malloc(total_len * sizeof(char));
 if (result == NULL)
 return (NULL);
 strcpy(result, s1);
