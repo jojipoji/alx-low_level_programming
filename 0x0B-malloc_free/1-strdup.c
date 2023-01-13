@@ -12,9 +12,9 @@ int a = 0;
 char *c;
 if (str == NULL)
 return (NULL);
-while (str != '\0')
+while (str[a] != '\0')
 i++;
-c = malloc (sizeof(char) * a + 1;
+c = malloc (sizeof(char) * a + 1);
 if (c == NULL)
 return (NULL);
 for (i = 0; i < a; i++)
