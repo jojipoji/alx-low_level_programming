@@ -2,10 +2,9 @@
 #include <stdlib.h>
 /**
  *main - prints the nameof the file its written on
-@__FILE__: macro name
-Return: always 0
+ *Return:returns always 0
 */
-int main()
+int main(void)
 {
 printf("%s\n", __FILE__);
 return (0);
