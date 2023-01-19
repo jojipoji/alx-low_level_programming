@@ -2,10 +2,10 @@
 #include "function_pointers.h"
 #include <stdlib.h>
 /**
- * array_iterator - iterates through array
- * @array: array to go through
- * @size: size of array
- *@action is a pointer to the function 
+ *array_iterator - iterates through array
+ *@array: array to go through
+ *@size: size of array
+ *@action: is a pointer to the function
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
