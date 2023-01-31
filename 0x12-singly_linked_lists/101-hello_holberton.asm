@@ -1,28 +1,22 @@
-	section .data
-	msg db 'Hello, Holberton', 0
+	;;  Declare needed C  functions
+	extern	printf		; the C function, to be called
 
-	section .text
-	global _start
+	section .data		; Data section, initialized variables
+msg:		db "Hello, Holberton", 0 ; C string needs 0
+fmt:		db "%s", 10, 0		 ; The printf format, "\n",'0'
 
-_start:
-	;;  print message to stdout
-	mov edx, 13
-	mov ecx, msg
-	mov ebx, 1
-	mov eax, 4
-	int 0x80
+	section .text		; Code section.
 
-	;;  print new line to stdout
-	mov edx, 1
-	mov ecx, newline
-	mov ebx, 1
-	mov eax, 4
-	int 0x80
+	global main		; the standard gcc entry point
+main:				; the program label for the entry point
+	push	rbp		; set up stack frame, must be alligned
 
-	;;  exit program
-	mov eax, 1
-	xor ebx, ebx
-	int 0x80
+	mov	rdi,fmt
+	mov	rsi,msg
+	mov	rax,0		; or can be  xor  rax,rax
+	call	printf		; Call C function
 
-	section .data
-	newline db 0x0A
+	pop	rbp		; restore stack
+
+	mov	rax,0		; normal, no error, return value
+	ret			; return
