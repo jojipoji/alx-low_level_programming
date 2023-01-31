@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - prints a string
+ *premain - prints a string
  *Return: nothing
  */
 void __attribute__ ((constructor)) premain()
