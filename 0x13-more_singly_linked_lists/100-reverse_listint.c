@@ -1,20 +1,27 @@
 #include "lists.h"
+
 /**
- * pop_listint - pops a node out
- * @head: linked list address
- * Return: head node data
+ * reverse_listint - reverses a linked list.
+ * @head: head of a list.
+ *
+ * Return: pointer to the first node.
  */
-int pop_listint(listint_t **head)
+listint_t *reverse_listint(listint_t **head)
 {
-	int value = 0;
-	listint_t *tmp;
+	listint_t *p;
+	listint_t *n;
 
-	if (*head == NULL)
-		return (value);
-	tmp = *head;
-	value = tmp->n;
-	free(*head);
-	*head = tmp->next;
+	p = NULL;
+	n = NULL;
 
-	return (value);
+	while (*head != NULL)
+	{
+		n = (*head)->next;
+		(*head)->next = p;
+		p = *head;
+		*head = n;
+	}
+
+	*head = p;
+	return (*head);
 }
